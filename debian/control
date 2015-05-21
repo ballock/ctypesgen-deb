@@ -1,0 +1,12 @@
+Source: ctypesgen
+Maintainer: Bolesław Tokarski <btokarski@opera.com>
+Section: python
+Priority: optional
+Build-Depends: python-all (>= 2.6.6-3), debhelper (>= 7.4.3)
+Standards-Version: 3.9.1
+
+Package: python-ctypesgen
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Python wrapper generator for ctypes
+
